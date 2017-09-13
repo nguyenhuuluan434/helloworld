@@ -39,7 +39,7 @@ def ConfigSectionMap(section):
 print "host_dead: " + sys.argv[1];
 print "host_backup: " + sys.argv[2] + "\n";
 
-engine = create_engine('mysql://hacompute:123456@10.76.0.2:3306')
+engine = create_engine('mysql://root:123456@10.10.0.2:3306')
 connection = engine.connect()
 
 # '''connect to OPS'''
